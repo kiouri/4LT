@@ -5,7 +5,7 @@ package com.fourlt.subject;
  */
 
 @org.kie.api.definition.type.Label("\u0441\u043F\u0440\u0430\u0432\u043E\u0447\u043D\u0438\u043A \u0442\u0438\u043F\u043E\u0432 \u0441\u0443\u0431\u044A\u0435\u043A\u0442\u043E\u0432")
-public class subject_type implements java.io.Serializable {
+public class SubjectType implements java.io.Serializable {
 
     static final long serialVersionUID = 1L;
 
@@ -32,10 +32,10 @@ public class subject_type implements java.io.Serializable {
 		this.typeName = typeName;
 	}
 
-	public subject_type() {
+	public SubjectType() {
 	}
 
-	public subject_type(java.lang.Integer subjectTypeCode, char typeName) {
+	public SubjectType(java.lang.Integer subjectTypeCode, char typeName) {
 		this.subjectTypeCode = subjectTypeCode;
 		this.typeName = typeName;
 	}
