@@ -7,7 +7,7 @@ import com.fourlt.subject.Subject;
  */
 
 @org.kie.api.definition.type.Label("\u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043A\u043E\u0435 \u043B\u0438\u0446\u043E")
-public class person extends Subject implements java.io.Serializable {
+public class Person extends Subject implements java.io.Serializable {
 
     static final long serialVersionUID = 1L;
 
@@ -119,10 +119,10 @@ public class person extends Subject implements java.io.Serializable {
         this.subjectID = subjectID;
     }
 
-	public person() {
+	public Person() {
 	}
 
-	public person(java.lang.Integer motherLanguageCode,
+	public Person(java.lang.Integer motherLanguageCode,
 			java.util.Date birthDate, java.util.Date deathDate,
 			java.lang.Integer cityBirthCode, java.lang.Integer districtCode,
 			java.lang.Integer autonomyCode, java.lang.Integer regionCode,
