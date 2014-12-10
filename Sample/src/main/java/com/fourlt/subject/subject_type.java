@@ -9,12 +9,12 @@ public class subject_type implements java.io.Serializable {
 
     static final long serialVersionUID = 1L;
 
-    @org.kie.api.definition.type.Label(value = "\u043A\u043E\u0434 \u0442\u0438\u043F\u0430 \u0441\u0443\u0431\u044A\u0435\u043A\u0442\u0430")
-	@org.kie.api.definition.type.Position(value = 0)
+    @org.kie.api.definition.type.Label("\u043A\u043E\u0434 \u0442\u0438\u043F\u0430 \u0441\u0443\u0431\u044A\u0435\u043A\u0442\u0430")
+	@org.kie.api.definition.type.Position(0)
 	private java.lang.Integer subjectTypeCode;
-	@org.kie.api.definition.type.Label(value = "\u043D\u0430\u0438\u043C\u0435\u043D\u043E\u0432\u0430\u043D\u0438\u0435 \u0442\u0438\u043F\u0430")
-	@org.kie.api.definition.type.Position(value = 1)
-	private java.lang.Integer typeName;
+	@org.kie.api.definition.type.Label("\u043D\u0430\u0438\u043C\u0435\u043D\u043E\u0432\u0430\u043D\u0438\u0435 \u0442\u0438\u043F\u0430")
+	@org.kie.api.definition.type.Position(1)
+	private char typeName;
 
 	public java.lang.Integer getSubjectTypeCode() {
 		return this.subjectTypeCode;
@@ -24,19 +24,18 @@ public class subject_type implements java.io.Serializable {
 		this.subjectTypeCode = subjectTypeCode;
 	}
 
-	public java.lang.Integer getTypeName() {
+	public char getTypeName() {
 		return this.typeName;
 	}
 
-	public void setTypeName(java.lang.Integer typeName) {
+	public void setTypeName(char typeName) {
 		this.typeName = typeName;
 	}
 
 	public subject_type() {
 	}
 
-	public subject_type(java.lang.Integer subjectTypeCode,
-			java.lang.Integer typeName) {
+	public subject_type(java.lang.Integer subjectTypeCode, char typeName) {
 		this.subjectTypeCode = subjectTypeCode;
 		this.typeName = typeName;
 	}
