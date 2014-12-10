@@ -6,7 +6,7 @@ package com.fourlt.subject;
 
 @org.kie.api.definition.type.Label("\u0441\u0443\u0431\u044A\u0435\u043A\u0442")
 @org.kie.api.definition.type.PropertyReactive
-public class subject implements java.io.Serializable {
+public class Subject implements java.io.Serializable {
 
     static final long serialVersionUID = 1L;
 
@@ -76,10 +76,10 @@ public class subject implements java.io.Serializable {
 		this.subjectTypeCode = subjectTypeCode;
 	}
 
-	public subject() {
+	public Subject() {
 	}
 
-	public subject(java.lang.Integer subjectId, java.lang.Integer inn,
+	public Subject(java.lang.Integer subjectId, java.lang.Integer inn,
 			java.lang.Integer language,
 			com.fourlt.subject.SubjectType subjectTypeCode,
 			java.lang.Integer parentId) {
