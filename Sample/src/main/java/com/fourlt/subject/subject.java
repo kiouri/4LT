@@ -33,7 +33,7 @@ public class subject implements java.io.Serializable {
     @org.kie.api.definition.type.Description("\u0422\u0438\u043F \u0441\u0443\u0431\u044A\u0435\u043A\u0442\u0430: \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043A\u043E\u0435 \u043B\u0438\u0446\u043E, \u0438\u043D\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043B\u044C\u043D\u044B\u0439 \u043F\u0440\u0435\u0434\u043F\u0440\u0438\u043D\u0438\u043C\u0430\u0442\u0435\u043B\u044C, \u043E\u043E\u043E \u0438 \u0442\u0434")
 	@org.kie.api.definition.type.Label("\u0442\u0438\u043F \u0441\u0443\u0431\u044A\u0435\u043A\u0442\u0430")
 	@org.kie.api.definition.type.Position(3)
-	private char subjectTypeCode;
+	private Integer subjectTypeCode;
 
     public java.lang.Integer getLanguage() {
         return this.language;
@@ -67,11 +67,11 @@ public class subject implements java.io.Serializable {
 		this.inn = inn;
 	}
 
-	public char getSubjectTypeCode() {
+	public java.lang.Integer getSubjectTypeCode() {
 		return this.subjectTypeCode;
 	}
 
-	public void setSubjectTypeCode(char subjectTypeCode) {
+	public void setSubjectTypeCode(java.lang.Integer subjectTypeCode) {
 		this.subjectTypeCode = subjectTypeCode;
 	}
 
@@ -80,7 +80,7 @@ public class subject implements java.io.Serializable {
 
 	public subject(java.lang.Integer subjectId,
 			com.fourlt.subject.subject_type inn, java.lang.Integer language,
-			char subjectTypeCode, java.lang.Integer parentId) {
+			java.lang.Integer subjectTypeCode, java.lang.Integer parentId) {
 		this.subjectId = subjectId;
 		this.inn = inn;
 		this.language = language;
