@@ -23,9 +23,9 @@ public class Person extends Subject implements java.io.Serializable {
 	@org.kie.api.definition.type.Position(3)
 	private java.lang.Integer cityBirthCode;
 
-    @org.kie.api.definition.type.Label("\u043A\u043E\u0434 \u0441\u0442\u0440\u0430\u043D\u044B")
+    @org.kie.api.definition.type.Label("\u043A\u043E\u0434 \u0441\u0442\u0440\u0430\u043D\u044B ISO3")
 	@org.kie.api.definition.type.Position(7)
-	private java.lang.Integer countryCode;
+	private Country countryISO3;
 
     @org.kie.api.definition.type.Label("\u0434\u0430\u0442\u0430 \u0441\u043C\u0435\u0440\u0442\u0438")
 	@org.kie.api.definition.type.Position(2)
@@ -71,14 +71,6 @@ public class Person extends Subject implements java.io.Serializable {
         this.cityBirthCode = cityBirthCode;
     }
 
-    public java.lang.Integer getCountryCode() {
-        return this.countryCode;
-    }
-    
-    public void setCountryCode(java.lang.Integer countryCode) {
-        this.countryCode = countryCode;
-    }
-
     public java.util.Date getDeathDate() {
         return this.deathDate;
     }
@@ -119,6 +111,14 @@ public class Person extends Subject implements java.io.Serializable {
         this.subjectID = subjectID;
     }
 
+	public com.fourlt.subject.Country getCountryISO3() {
+		return this.countryISO3;
+	}
+
+	public void setCountryISO3(com.fourlt.subject.Country countryISO3) {
+		this.countryISO3 = countryISO3;
+	}
+
 	public Person() {
 	}
 
@@ -126,7 +126,7 @@ public class Person extends Subject implements java.io.Serializable {
 			java.util.Date birthDate, java.util.Date deathDate,
 			java.lang.Integer cityBirthCode, java.lang.Integer districtCode,
 			java.lang.Integer autonomyCode, java.lang.Integer regionCode,
-			java.lang.Integer countryCode, java.lang.Integer subjectID) {
+			com.fourlt.subject.Country countryISO3, java.lang.Integer subjectID) {
 		this.motherLanguageCode = motherLanguageCode;
 		this.birthDate = birthDate;
 		this.deathDate = deathDate;
@@ -134,7 +134,7 @@ public class Person extends Subject implements java.io.Serializable {
 		this.districtCode = districtCode;
 		this.autonomyCode = autonomyCode;
 		this.regionCode = regionCode;
-		this.countryCode = countryCode;
+		this.countryISO3 = countryISO3;
 		this.subjectID = subjectID;
 	}
 
