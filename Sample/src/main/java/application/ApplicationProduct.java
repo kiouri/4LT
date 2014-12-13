@@ -29,25 +29,37 @@ public class ApplicationProduct implements java.io.Serializable {
 	@org.kie.api.definition.type.Position(2)
 	private java.lang.Integer approvedProductId;
 
-    @org.kie.api.definition.type.Label(value = "\u041E\u0434\u043E\u0431\u0440\u0435\u043D\u043D\u0430\u044F \u0441\u0442\u0430\u0432\u043A\u0430")
-	@org.kie.api.definition.type.Position(value = 5)
+    @org.kie.api.definition.type.Label("\u041E\u0434\u043E\u0431\u0440\u0435\u043D\u043D\u0430\u044F \u0441\u0442\u0430\u0432\u043A\u0430")
+	@org.kie.api.definition.type.Position(5)
 	private java.lang.Integer approvedRate;
 
-	@org.kie.api.definition.type.Label(value = "\u043E\u0434\u043E\u0431\u0440\u0435\u043D\u043D\u044B\u0439 \u0441\u0440\u043E\u043A")
-	@org.kie.api.definition.type.Position(value = 6)
+	@org.kie.api.definition.type.Label("\u043E\u0434\u043E\u0431\u0440\u0435\u043D\u043D\u044B\u0439 \u0441\u0440\u043E\u043A")
+	@org.kie.api.definition.type.Position(6)
 	private java.lang.Integer approvedMaturity;
 
-	@org.kie.api.definition.type.Label(value = "\u0417\u0430\u044F\u0432\u043B\u0435\u043D\u043D\u0430\u044F \u043F\u0440\u043E\u0446\u0435\u043D\u0442\u043D\u0430\u044F \u0441\u0442\u0430\u0432\u043A\u0430")
-	@org.kie.api.definition.type.Position(value = 7)
+	@org.kie.api.definition.type.Label("\u0417\u0430\u044F\u0432\u043B\u0435\u043D\u043D\u0430\u044F \u043F\u0440\u043E\u0446\u0435\u043D\u0442\u043D\u0430\u044F \u0441\u0442\u0430\u0432\u043A\u0430")
+	@org.kie.api.definition.type.Position(7)
 	private java.lang.Integer baseInterestRate;
 
-	@org.kie.api.definition.type.Label(value = "\u0422\u0438\u043F \u043F\u0440\u043E\u0434\u0443\u043A\u0442\u0430 \u041C\u0424\u041E")
-	@org.kie.api.definition.type.Position(value = 8)
+	@org.kie.api.definition.type.Label("\u0422\u0438\u043F \u043F\u0440\u043E\u0434\u0443\u043A\u0442\u0430 \u041C\u0424\u041E")
+	@org.kie.api.definition.type.Position(8)
 	private java.lang.Integer contractTypeMFI;
 
-	@org.kie.api.definition.type.Label(value = "\u0421\u043E\u0432\u043E\u043A\u0443\u043F\u043D\u044B\u0439 \u0434\u043E\u0445\u043E\u0434")
-	@org.kie.api.definition.type.Position(value = 9)
+	@org.kie.api.definition.type.Label("\u0421\u043E\u0432\u043E\u043A\u0443\u043F\u043D\u044B\u0439 \u0434\u043E\u0445\u043E\u0434")
+	@org.kie.api.definition.type.Position(9)
 	private java.lang.Integer grossIncomeSubject;
+
+	@org.kie.api.definition.type.Label(value = "\u0421\u0442\u043E\u0438\u043C\u043E\u0441\u0442\u044C \u0441\u0442\u0440\u0430\u0445\u043E\u0432\u043A\u0438")
+	@org.kie.api.definition.type.Position(value = 10)
+	private java.lang.Integer insuranceAmount;
+
+	@org.kie.api.definition.type.Label(value = "\u041A\u043E\u0434 \u0441\u0442\u0440\u0430\u0445\u043E\u0432\u043E\u0439 \u043A\u043E\u043C\u043F\u0430\u043D\u0438\u0438")
+	@org.kie.api.definition.type.Position(value = 11)
+	private java.lang.Integer insuranceCompanyId;
+
+	@org.kie.api.definition.type.Label(value = "\u043A\u043E\u0434 \u0441\u0442\u0440\u0430\u0445\u043E\u0432\u043E\u0439 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B")
+	@org.kie.api.definition.type.Position(value = 12)
+	private java.lang.Integer insuranceProgramCode;
 
 	public java.util.Date getApplicationCreateDate() {
         return this.applicationCreateDate;
@@ -129,6 +141,30 @@ public class ApplicationProduct implements java.io.Serializable {
 		this.grossIncomeSubject = grossIncomeSubject;
 	}
 
+	public java.lang.Integer getInsuranceAmount() {
+		return this.insuranceAmount;
+	}
+
+	public void setInsuranceAmount(java.lang.Integer insuranceAmount) {
+		this.insuranceAmount = insuranceAmount;
+	}
+
+	public java.lang.Integer getInsuranceCompanyId() {
+		return this.insuranceCompanyId;
+	}
+
+	public void setInsuranceCompanyId(java.lang.Integer insuranceCompanyId) {
+		this.insuranceCompanyId = insuranceCompanyId;
+	}
+
+	public java.lang.Integer getInsuranceProgramCode() {
+		return this.insuranceProgramCode;
+	}
+
+	public void setInsuranceProgramCode(java.lang.Integer insuranceProgramCode) {
+		this.insuranceProgramCode = insuranceProgramCode;
+	}
+
 	public ApplicationProduct() {
 	}
 
@@ -140,7 +176,10 @@ public class ApplicationProduct implements java.io.Serializable {
 			java.lang.Integer approvedRate, java.lang.Integer approvedMaturity,
 			java.lang.Integer baseInterestRate,
 			java.lang.Integer contractTypeMFI,
-			java.lang.Integer grossIncomeSubject) {
+			java.lang.Integer grossIncomeSubject,
+			java.lang.Integer insuranceAmount,
+			java.lang.Integer insuranceCompanyId,
+			java.lang.Integer insuranceProgramCode) {
 		this.applicationId = applicationId;
 		this.applicationCreateDate = applicationCreateDate;
 		this.approvedProductId = approvedProductId;
@@ -151,6 +190,9 @@ public class ApplicationProduct implements java.io.Serializable {
 		this.baseInterestRate = baseInterestRate;
 		this.contractTypeMFI = contractTypeMFI;
 		this.grossIncomeSubject = grossIncomeSubject;
+		this.insuranceAmount = insuranceAmount;
+		this.insuranceCompanyId = insuranceCompanyId;
+		this.insuranceProgramCode = insuranceProgramCode;
 	}
 
 }
