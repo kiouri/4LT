@@ -41,13 +41,17 @@ public class documentSubject extends com.fourlt.subject.Subject implements java.
 	@org.kie.api.definition.type.Position(1)
 	private java.lang.Integer documentType;
 
-    @org.kie.api.definition.type.Label(value = "\u0441\u0442\u0440\u0430\u043D\u0430 \u0432\u044B\u0434\u0430\u0432\u0448\u0430\u044F \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442")
-	@org.kie.api.definition.type.Position(value = 8)
+    @org.kie.api.definition.type.Label("\u0441\u0442\u0440\u0430\u043D\u0430 \u0432\u044B\u0434\u0430\u0432\u0448\u0430\u044F \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442")
+	@org.kie.api.definition.type.Position(8)
 	private com.fourlt.subject.Country documentIssueCountry;
 
-	@org.kie.api.definition.type.Label(value = "\u043A\u043E\u0434 \u0440\u0435\u0433\u0438\u043E\u043D\u0430 \u0432\u044B\u0434\u0430\u0432\u0448\u0435\u0433\u043E \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442")
-	@org.kie.api.definition.type.Position(value = 9)
+	@org.kie.api.definition.type.Label("\u043A\u043E\u0434 \u0440\u0435\u0433\u0438\u043E\u043D\u0430 \u0432\u044B\u0434\u0430\u0432\u0448\u0435\u0433\u043E \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442")
+	@org.kie.api.definition.type.Position(9)
 	private char documentIssueRegion;
+
+	@org.kie.api.definition.type.Label(value = "\u0414\u0430\u0442\u0430 \u0438\u0441\u0442\u0435\u0447\u0435\u043D\u0438\u044F \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0430")
+	@org.kie.api.definition.type.Position(value = 10)
+	private java.util.Date documentExpirationDate;
 
 	public java.lang.Integer getDocumentId() {
         return this.documentId;
@@ -130,6 +134,14 @@ public class documentSubject extends com.fourlt.subject.Subject implements java.
 		this.documentIssueRegion = documentIssueRegion;
 	}
 
+	public java.util.Date getDocumentExpirationDate() {
+		return this.documentExpirationDate;
+	}
+
+	public void setDocumentExpirationDate(java.util.Date documentExpirationDate) {
+		this.documentExpirationDate = documentExpirationDate;
+	}
+
 	public documentSubject() {
 	}
 
@@ -140,7 +152,7 @@ public class documentSubject extends com.fourlt.subject.Subject implements java.
 			java.lang.Integer documentIssueDepartmentCode,
 			char documentIssueCityId,
 			com.fourlt.subject.Country documentIssueCountry,
-			char documentIssueRegion) {
+			char documentIssueRegion, java.util.Date documentExpirationDate) {
 		this.documentId = documentId;
 		this.documentType = documentType;
 		this.documentSeria = documentSeria;
@@ -151,6 +163,7 @@ public class documentSubject extends com.fourlt.subject.Subject implements java.
 		this.documentIssueCityId = documentIssueCityId;
 		this.documentIssueCountry = documentIssueCountry;
 		this.documentIssueRegion = documentIssueRegion;
+		this.documentExpirationDate = documentExpirationDate;
 	}
 
 }
