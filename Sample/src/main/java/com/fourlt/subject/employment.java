@@ -25,14 +25,18 @@ public class employment extends com.fourlt.subject.Person implements java.io.Ser
 	@org.kie.api.definition.type.Position(1)
 	private java.lang.Integer wagesVerifed;
 
-    @org.kie.api.definition.type.Label(value = "\u0441\u0444\u0435\u0440\u0430 \u0434\u0435\u044F\u0442\u0435\u043B\u044C\u043D\u043E\u0441\u0442\u0438")
-	@org.kie.api.definition.type.Position(value = 4)
+    @org.kie.api.definition.type.Label("\u0441\u0444\u0435\u0440\u0430 \u0434\u0435\u044F\u0442\u0435\u043B\u044C\u043D\u043E\u0441\u0442\u0438")
+	@org.kie.api.definition.type.Position(4)
 	private char referenceFrame;
 
-	@org.kie.api.definition.type.Description(value = "\u043E\u0441\u043D\u043E\u0432\u043D\u043E\u0439 \u0438\u043B\u0438 \u043F\u0440\u043E\u0447\u0438\u0435 \u0434\u043E\u0445\u043E\u0434\u044B")
-	@org.kie.api.definition.type.Label(value = "\u0422\u0438\u043F \u0434\u043E\u0445\u043E\u0434\u0430")
-	@org.kie.api.definition.type.Position(value = 5)
+	@org.kie.api.definition.type.Label("\u0422\u0438\u043F \u0434\u043E\u0445\u043E\u0434\u0430")
+	@org.kie.api.definition.type.Position(5)
+	@org.kie.api.definition.type.Description("\u043E\u0441\u043D\u043E\u0432\u043D\u043E\u0439 \u0438\u043B\u0438 \u043F\u0440\u043E\u0447\u0438\u0435 \u0434\u043E\u0445\u043E\u0434\u044B")
 	private char wagesType;
+
+	@org.kie.api.definition.type.Label(value = "\u0434\u043E\u0445\u043E\u0434 \u0441\u0443\u043F\u0440\u0443\u0433\u0430")
+	@org.kie.api.definition.type.Position(value = 6)
+	private char spouseWages;
 
 	public char getPositionType() {
         return this.positionType;
@@ -82,18 +86,28 @@ public class employment extends com.fourlt.subject.Person implements java.io.Ser
 		this.wagesType = wagesType;
 	}
 
+	public char getSpouseWages() {
+		return this.spouseWages;
+	}
+
+	public void setSpouseWages(char spouseWages) {
+		this.spouseWages = spouseWages;
+	}
+
 	public employment() {
 	}
 
 	public employment(java.lang.Integer wagesDeclared,
 			java.lang.Integer wagesVerifed, char wagesCurrency,
-			char positionType, char referenceFrame, char wagesType) {
+			char positionType, char referenceFrame, char wagesType,
+			char spouseWages) {
 		this.wagesDeclared = wagesDeclared;
 		this.wagesVerifed = wagesVerifed;
 		this.wagesCurrency = wagesCurrency;
 		this.positionType = positionType;
 		this.referenceFrame = referenceFrame;
 		this.wagesType = wagesType;
+		this.spouseWages = spouseWages;
 	}
 
 }
