@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="fourlt"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="C:/java/jre 1.8.0_25/lib/charsets.jar"/>
+	<classpathentry kind="lib" path="C:/java/jre 1.8.0_25/lib/deploy.jar"/>
+	<classpathentry kind="lib" path="C:/java/jre 1.8.0_25/lib/javaws.jar"/>
+	<classpathentry kind="lib" path="C:/java/jre 1.8.0_25/lib/jce.jar"/>
+	<classpathentry kind="lib" path="C:/java/jre 1.8.0_25/lib/jfr.jar"/>
+	<classpathentry kind="lib" path="C:/java/jre 1.8.0_25/lib/jfxswt.jar"/>
+	<classpathentry kind="lib" path="C:/java/jre 1.8.0_25/lib/jsse.jar"/>
+	<classpathentry kind="lib" path="C:/java/jre 1.8.0_25/lib/management-agent.jar"/>
+	<classpathentry kind="lib" path="C:/java/jre 1.8.0_25/lib/plugin.jar"/>
+	<classpathentry kind="lib" path="C:/java/jre 1.8.0_25/lib/resources.jar"/>
+	<classpathentry kind="lib" path="C:/java/jre 1.8.0_25/lib/rt.jar"/>
+	<classpathentry kind="lib" path="C:/java/jre 1.8.0_25/lib/ext/access-bridge-64.jar"/>
+	<classpathentry kind="lib" path="C:/java/jre 1.8.0_25/lib/ext/cldrdata.jar"/>
+	<classpathentry kind="lib" path="C:/java/jre 1.8.0_25/lib/ext/dnsns.jar"/>
+	<classpathentry kind="lib" path="C:/java/jre 1.8.0_25/lib/ext/jaccess.jar"/>
+	<classpathentry kind="lib" path="C:/java/jre 1.8.0_25/lib/ext/jfxrt.jar"/>
+	<classpathentry kind="lib" path="C:/java/jre 1.8.0_25/lib/ext/localedata.jar"/>
+	<classpathentry kind="lib" path="C:/java/jre 1.8.0_25/lib/ext/nashorn.jar"/>
+	<classpathentry kind="lib" path="C:/java/jre 1.8.0_25/lib/ext/sunec.jar"/>
+	<classpathentry kind="lib" path="C:/java/jre 1.8.0_25/lib/ext/sunjce_provider.jar"/>
+	<classpathentry kind="lib" path="C:/java/jre 1.8.0_25/lib/ext/sunmscapi.jar"/>
+	<classpathentry kind="lib" path="C:/java/jre 1.8.0_25/lib/ext/sunpkcs11.jar"/>
+	<classpathentry kind="lib" path="C:/java/jre 1.8.0_25/lib/ext/zipfs.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
