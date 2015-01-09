@@ -6,7 +6,7 @@
   <artifactId>MFI</artifactId>
   <version>1.0</version>
   <packaging>kjar</packaging>
-  <name>MFI - sample</name>
+  <name>MFI-sample</name>
   <description>Это пример проекта нашей компании по обработке правил выдачи кредита  МФО</description>
   <repositories>
     <repository>
