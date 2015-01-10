@@ -3,10 +3,10 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.fourlt</groupId>
-  <artifactId>Sample</artifactId>
+  <artifactId>MFI</artifactId>
   <version>1.0</version>
   <packaging>kjar</packaging>
-  <name>Sample</name>
+  <name>MFI-sample</name>
   <description>Это пример проекта нашей компании по обработке правил выдачи кредита  МФО</description>
   <repositories>
     <repository>
