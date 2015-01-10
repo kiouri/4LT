@@ -3,7 +3,7 @@
     <org.guvnor.common.services.shared.metadata.model.CategoryItem>
       <parent class="org.guvnor.common.services.shared.metadata.model.Categories" reference="../../.."/>
       <children/>
-      <name>test strategy</name>
+      <name>Pilot strategy</name>
       <description></description>
     </org.guvnor.common.services.shared.metadata.model.CategoryItem>
   </children>
