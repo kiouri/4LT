@@ -1,4 +1,4 @@
-package com.fourlt.subject;
+package com.fourlt.party;
 
 import com.fourlt.party.Person;
 
