@@ -13,64 +13,64 @@ public class ApplicationProduct extends Party implements java.io.Serializable {
     static final long serialVersionUID = 1L;
 
     @org.kie.api.definition.type.Label("\u0414\u0430\u0442\u0430 \u0441\u043E\u0437\u0434\u0430\u043D\u0438\u044F \u0437\u0430\u044F\u0432\u043A\u0438")
-	@org.kie.api.definition.type.Position(1)
+	@org.kie.api.definition.type.Position(2)
 	private java.util.Date applicationCreateDate;
 
     @org.kie.api.definition.type.Label("\u041A\u043E\u0434 \u0437\u0430\u044F\u0432\u043A\u0438")
-	@org.kie.api.definition.type.Position(0)
+	@org.kie.api.definition.type.Position(1)
 	private char applicationId;
 
     @org.kie.api.definition.type.Label("\u0417\u0430\u043F\u0440\u0430\u0448\u0438\u0432\u0430\u0435\u043C\u0430\u044F \u0441\u0443\u043C\u043C\u0430")
-	@org.kie.api.definition.type.Position(3)
+	@org.kie.api.definition.type.Position(4)
 	private java.lang.Integer requestedAmount;
 
     @org.kie.api.definition.type.Label("\u0417\u0430\u043F\u0440\u0430\u0432\u0448\u0438\u0432\u0430\u0435\u043C\u0430\u044F \u0432\u0430\u043B\u044E\u0442\u0430")
-	@org.kie.api.definition.type.Position(4)
+	@org.kie.api.definition.type.Position(5)
 	private currencyCode requestedCurrencyId;
 
     @org.kie.api.definition.type.Label("\u0417\u0430\u043F\u0440\u0430\u0448\u0438\u0432\u0430\u0435\u043C\u044B\u0439 \u043F\u0440\u043E\u0434\u0443\u043A\u0442")
-	@org.kie.api.definition.type.Position(2)
+	@org.kie.api.definition.type.Position(3)
 	private char requestedProductId;
 
     @org.kie.api.definition.type.Label("\u0417\u0430\u043F\u0440\u0430\u0448\u0438\u0432\u0430\u0435\u043C\u0430\u044F \u0441\u0442\u0430\u0432\u043A\u0430")
-	@org.kie.api.definition.type.Position(5)
+	@org.kie.api.definition.type.Position(6)
 	private java.lang.Integer requestedRate;
 
 	@org.kie.api.definition.type.Label("\u0417\u0430\u043F\u0440\u0430\u0448\u0438\u0432\u0430\u0435\u043C\u044B\u0439 \u0441\u0440\u043E\u043A")
-	@org.kie.api.definition.type.Position(6)
+	@org.kie.api.definition.type.Position(7)
 	private java.lang.Integer requestedMaturity;
 
 	@org.kie.api.definition.type.Label("\u0417\u0430\u044F\u0432\u043B\u0435\u043D\u043D\u0430\u044F \u043F\u0440\u043E\u0446\u0435\u043D\u0442\u043D\u0430\u044F \u0441\u0442\u0430\u0432\u043A\u0430")
-	@org.kie.api.definition.type.Position(7)
+	@org.kie.api.definition.type.Position(8)
 	private java.lang.Integer baseInterestRate;
 
 	@org.kie.api.definition.type.Label("\u0422\u0438\u043F \u043F\u0440\u043E\u0434\u0443\u043A\u0442\u0430 \u041C\u0424\u041E")
-	@org.kie.api.definition.type.Position(8)
+	@org.kie.api.definition.type.Position(9)
 	private char contractTypeMFI;
 
 	@org.kie.api.definition.type.Label("\u0421\u0442\u043E\u0438\u043C\u043E\u0441\u0442\u044C \u0441\u0442\u0440\u0430\u0445\u043E\u0432\u043A\u0438")
-	@org.kie.api.definition.type.Position(9)
+	@org.kie.api.definition.type.Position(10)
 	private java.lang.Integer insuranceAmount;
 
 	@org.kie.api.definition.type.Label("\u041A\u043E\u0434 \u0441\u0442\u0440\u0430\u0445\u043E\u0432\u043E\u0439 \u043A\u043E\u043C\u043F\u0430\u043D\u0438\u0438")
-	@org.kie.api.definition.type.Position(10)
+	@org.kie.api.definition.type.Position(11)
 	private char insuranceCompanyId;
 
 	@org.kie.api.definition.type.Label("\u043A\u043E\u0434 \u0441\u0442\u0440\u0430\u0445\u043E\u0432\u043E\u0439 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B")
-	@org.kie.api.definition.type.Position(11)
+	@org.kie.api.definition.type.Position(12)
 	private char insuranceProgramCode;
 
 	@org.kie.api.definition.type.Label("\u043C\u0438\u043D\u0438\u043C\u0430\u043B\u044C\u043D\u044B\u0439 \u0441\u0440\u043E\u043A \u043F\u043E \u043F\u0440\u043E\u0434\u0443\u043A\u0442\u0443")
-	@org.kie.api.definition.type.Position(12)
+	@org.kie.api.definition.type.Position(13)
 	private java.lang.Integer minProductTerm;
 
 	@org.kie.api.definition.type.Label("\u043C\u0430\u043A\u0441\u0438\u043C\u0430\u043B\u044C\u043D\u044B\u0439 \u0441\u0440\u043E\u043A \u043F\u043E \u043F\u0440\u043E\u0434\u0443\u043A\u0442\u0443")
-	@org.kie.api.definition.type.Position(13)
+	@org.kie.api.definition.type.Position(14)
 	private java.lang.Integer maxProductTerm;
 
-	@org.kie.api.definition.type.Label("\u043A\u043E\u0434 \u0442\u043E\u0447\u043A\u0438 \u043F\u0440\u043E\u0434\u0430\u0436\u0438 \u041C\u0424\u041E")
-	@org.kie.api.definition.type.Position(14)
-	private java.lang.Integer POSIdMFI;
+	@org.kie.api.definition.type.Label(value = "\u0422\u043E\u0447\u043A\u0430 \u043F\u0440\u043E\u0434\u0430\u0436")
+	@org.kie.api.definition.type.Position(value = 0)
+	private char posID;
 
 	public java.util.Date getApplicationCreateDate() {
         return this.applicationCreateDate;
@@ -126,14 +126,6 @@ public class ApplicationProduct extends Party implements java.io.Serializable {
 
 	public void setMaxProductTerm(java.lang.Integer maxProductTerm) {
 		this.maxProductTerm = maxProductTerm;
-	}
-
-	public java.lang.Integer getPOSIdMFI() {
-		return this.POSIdMFI;
-	}
-
-	public void setPOSIdMFI(java.lang.Integer POSIdMFI) {
-		this.POSIdMFI = POSIdMFI;
 	}
 
 	public java.lang.Integer getRequestedRate() {
@@ -193,10 +185,18 @@ public class ApplicationProduct extends Party implements java.io.Serializable {
 		this.contractTypeMFI = contractTypeMFI;
 	}
 
+	public char getPosID() {
+		return this.posID;
+	}
+
+	public void setPosID(char posID) {
+		this.posID = posID;
+	}
+
 	public ApplicationProduct() {
 	}
 
-	public ApplicationProduct(char applicationId,
+	public ApplicationProduct(char posID, char applicationId,
 			java.util.Date applicationCreateDate, char requestedProductId,
 			java.lang.Integer requestedAmount,
 			com.fourlt.reference.currencyCode requestedCurrencyId,
@@ -205,7 +205,8 @@ public class ApplicationProduct extends Party implements java.io.Serializable {
 			java.lang.Integer baseInterestRate, char contractTypeMFI,
 			java.lang.Integer insuranceAmount, char insuranceCompanyId,
 			char insuranceProgramCode, java.lang.Integer minProductTerm,
-			java.lang.Integer maxProductTerm, java.lang.Integer POSIdMFI) {
+			java.lang.Integer maxProductTerm) {
+		this.posID = posID;
 		this.applicationId = applicationId;
 		this.applicationCreateDate = applicationCreateDate;
 		this.requestedProductId = requestedProductId;
@@ -220,7 +221,6 @@ public class ApplicationProduct extends Party implements java.io.Serializable {
 		this.insuranceProgramCode = insuranceProgramCode;
 		this.minProductTerm = minProductTerm;
 		this.maxProductTerm = maxProductTerm;
-		this.POSIdMFI = POSIdMFI;
 	}
 
 }
