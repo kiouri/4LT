@@ -1,4 +1,7 @@
 <org.guvnor.common.services.shared.metadata.model.Categories>
+<<<<<<< HEAD
+  <children/>
+=======
   <children>
     <org.guvnor.common.services.shared.metadata.model.CategoryItem>
       <parent class="org.guvnor.common.services.shared.metadata.model.Categories" reference="../../.."/>
@@ -7,4 +10,5 @@
       <description></description>
     </org.guvnor.common.services.shared.metadata.model.CategoryItem>
   </children>
+>>>>>>> remotes/4LTGithub/master
 </org.guvnor.common.services.shared.metadata.model.Categories>
