@@ -4,4 +4,11 @@
 <property name="name" value="InputAplication-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<dataHolder inputId="applicationId" name="#E9E371" type="dataModelerEntry" outId="applicationId" value="application.ApplicationProduct" id="app_id"/>
+<dataHolder inputId="applicationCreateDate" name="#E9E371" type="dataModelerEntry" outId="applicationCreateDate" value="application.ApplicationProduct" id="appdate"/>
+<dataHolder inputId="documentNumber" name="#9BCAFA" type="dataModelerEntry" outId="documentNumber" value="com.fourlt.party.documentParty" id="doc_num"/>
+<dataHolder inputId="documentSeria" name="#9BCAFA" type="dataModelerEntry" outId="documentSeria" value="com.fourlt.party.documentParty" id="doc_serial"/>
+<dataHolder inputId="documentType" name="#9BCAFA" type="dataModelerEntry" outId="documentType" value="com.fourlt.party.documentParty" id="doc_type"/>
+<dataHolder inputId="requestedAmount" name="#A7E690" type="dataModelerEntry" outId="requestedAmount" value="application.ApplicationProduct" id="req_amount"/>
+<dataHolder inputId="requestedCurrencyId" name="#A7E690" type="dataModelerEntry" outId="requestedCurrencyId" value="application.ApplicationProduct" id="req_cur"/>
 </form>
