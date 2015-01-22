@@ -4,4 +4,5 @@
 <property name="name" value="InputAplication-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<dataHolder inputId="" name="#E9E371" type="dataModelerEntry" outId="appOutput" value="application.ApplicationProduct" id="app_id"/>
 </form>
