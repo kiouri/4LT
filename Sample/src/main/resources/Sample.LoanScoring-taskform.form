@@ -38,8 +38,18 @@
 </field>
 <field position="4" name="App_insuranceAmount" type="InputTextInteger" id="72628566">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;insuranceAmount (App)quot;"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;&#1057;&#1091;&#1084;&#1084;&#1072; &#1089;&#1090;&#1088;&#1072;&#1093;&#1086;&#1074;&#1082;&#1080;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value=""/>
 <property name="outputBinding" value="App/insuranceAmount"/>
 <property name="fieldClass" value="java.lang.Integer"/>
@@ -164,15 +174,16 @@
 <property name="outputBinding" value="Descision/approvedMaturity"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="20" name="Descision_approvedRate" type="InputTextInteger" id="1747354098">
+<field position="22" name="Descision_approvedRate" type="InputTextInteger" id="1747354098">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;enquot;,quot;approvedRate (Descision)quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value=""/>
 <property name="outputBinding" value="Descision/approvedRate"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="21" name="Descision_baseInterestRate" type="InputTextInteger" id="601429396">
+<field position="23" name="Descision_baseInterestRate" type="InputTextInteger" id="601429396">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;baseInterestRate (Descision)quot;"/>
 <property name="readonly" value="false"/>
@@ -180,7 +191,7 @@
 <property name="outputBinding" value="Descision/baseInterestRate"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="22" name="Descision_contractTypeMFI" type="InputTextPrimitiveCharacter" id="2097580813">
+<field position="24" name="Descision_contractTypeMFI" type="InputTextPrimitiveCharacter" id="2097580813">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;contractTypeMFI (Descision)quot;"/>
 <property name="readonly" value="false"/>
@@ -188,7 +199,7 @@
 <property name="outputBinding" value="Descision/contractTypeMFI"/>
 <property name="fieldClass" value="char"/>
 </field>
-<field position="23" name="Descision_decisionDate" type="InputDate" id="535205191">
+<field position="25" name="Descision_decisionDate" type="InputDate" id="535205191">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;decisionDate (Descision)quot;"/>
 <property name="readonly" value="false"/>
@@ -196,7 +207,7 @@
 <property name="outputBinding" value="Descision/decisionDate"/>
 <property name="fieldClass" value="java.util.Date"/>
 </field>
-<field position="24" name="Descision_insuranceAmount" type="InputTextInteger" id="1149513356">
+<field position="26" name="Descision_insuranceAmount" type="InputTextInteger" id="1149513356">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;insuranceAmount (Descision)quot;"/>
 <property name="readonly" value="false"/>
@@ -204,7 +215,7 @@
 <property name="outputBinding" value="Descision/insuranceAmount"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="25" name="Descision_insuranceCompanyId" type="InputTextPrimitiveCharacter" id="1075996962">
+<field position="27" name="Descision_insuranceCompanyId" type="InputTextPrimitiveCharacter" id="1075996962">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;insuranceCompanyId (Descision)quot;"/>
 <property name="readonly" value="false"/>
@@ -212,7 +223,7 @@
 <property name="outputBinding" value="Descision/insuranceCompanyId"/>
 <property name="fieldClass" value="char"/>
 </field>
-<field position="26" name="Descision_insuranceProgramCode" type="InputTextPrimitiveCharacter" id="870958783">
+<field position="28" name="Descision_insuranceProgramCode" type="InputTextPrimitiveCharacter" id="870958783">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;insuranceProgramCode (Descision)quot;"/>
 <property name="readonly" value="false"/>
@@ -220,7 +231,7 @@
 <property name="outputBinding" value="Descision/insuranceProgramCode"/>
 <property name="fieldClass" value="char"/>
 </field>
-<field position="27" name="Descision_maxProductTerm" type="InputTextInteger" id="509015209">
+<field position="29" name="Descision_maxProductTerm" type="InputTextInteger" id="509015209">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;maxProductTerm (Descision)quot;"/>
 <property name="readonly" value="false"/>
@@ -228,16 +239,18 @@
 <property name="outputBinding" value="Descision/maxProductTerm"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="28" name="Descision_minProductTerm" type="InputTextInteger" id="637626841">
+<field position="21" name="Descision_minProductTerm" type="InputTextInteger" id="637626841">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;minProductTerm (Descision)quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value=""/>
 <property name="outputBinding" value="Descision/minProductTerm"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="29" name="Descision_pOSIdMFI" type="InputTextInteger" id="96643312">
+<field position="20" name="Descision_pOSIdMFI" type="InputTextInteger" id="96643312">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;pOSIdMFI (Descision)quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value=""/>
