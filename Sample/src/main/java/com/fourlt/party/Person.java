@@ -48,7 +48,19 @@ public class Person extends Party implements java.io.Serializable {
 	@org.kie.api.definition.type.Position(8)
 	private java.lang.Integer subjectID;
 
-    public java.lang.Integer getAutonomyCode() {
+    @org.kie.api.definition.type.Label(value = "\u0418\u043C\u044F")
+	@org.kie.api.definition.type.Position(value = 9)
+	private java.lang.String fistName;
+
+	@org.kie.api.definition.type.Label(value = "\u0424\u0430\u043C\u0438\u043B\u0438\u044F")
+	@org.kie.api.definition.type.Position(value = 10)
+	private java.lang.String lastName;
+
+	@org.kie.api.definition.type.Label(value = "\u041E\u0442\u0447\u0435\u0442\u0441\u0442\u0432\u043E")
+	@org.kie.api.definition.type.Position(value = 11)
+	private java.lang.String middleName;
+
+	public java.lang.Integer getAutonomyCode() {
         return this.autonomyCode;
     }
     
@@ -120,6 +132,30 @@ public class Person extends Party implements java.io.Serializable {
 		this.countryISO3 = countryISO3;
 	}
 
+	public java.lang.String getFistName() {
+		return this.fistName;
+	}
+
+	public void setFistName(java.lang.String fistName) {
+		this.fistName = fistName;
+	}
+
+	public java.lang.String getLastName() {
+		return this.lastName;
+	}
+
+	public void setLastName(java.lang.String lastName) {
+		this.lastName = lastName;
+	}
+
+	public java.lang.String getMiddleName() {
+		return this.middleName;
+	}
+
+	public void setMiddleName(java.lang.String middleName) {
+		this.middleName = middleName;
+	}
+
 	public Person() {
 	}
 
@@ -128,7 +164,8 @@ public class Person extends Party implements java.io.Serializable {
 			java.lang.Integer cityBirthCode, java.lang.Integer districtCode,
 			java.lang.Integer autonomyCode, java.lang.Integer regionCode,
 			com.fourlt.reference.Country countryISO3,
-			java.lang.Integer subjectID) {
+			java.lang.Integer subjectID, java.lang.String fistName,
+			java.lang.String lastName, java.lang.String middleName) {
 		this.motherLanguageCode = motherLanguageCode;
 		this.birthDate = birthDate;
 		this.deathDate = deathDate;
@@ -138,6 +175,9 @@ public class Person extends Party implements java.io.Serializable {
 		this.regionCode = regionCode;
 		this.countryISO3 = countryISO3;
 		this.subjectID = subjectID;
+		this.fistName = fistName;
+		this.lastName = lastName;
+		this.middleName = middleName;
 	}
 
 }
