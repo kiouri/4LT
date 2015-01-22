@@ -8,7 +8,7 @@ import com.fourlt.party.Party;
  */
 
 @org.kie.api.definition.type.Label("\u0410\u043D\u043A\u0435\u0442\u0430\u041F\u0440\u043E\u0434\u0443\u043A\u0442")
-public class ApplicationProduct extends Party implements java.io.Serializable {
+public class ApplicationProduct implements java.io.Serializable {
 
     static final long serialVersionUID = 1L;
 
