@@ -1,0 +1,302 @@
+
+<form id="795711017">
+<property name="subject" value=""/>
+<property name="name" value="Sample.LoanScoring-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="App_applicationCreateDate" type="InputDate" id="1955710517">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;applicationCreateDate (App)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="App/applicationCreateDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="1" name="App_applicationId" type="InputTextPrimitiveCharacter" id="1261373170">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;applicationId (App)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="App/applicationId"/>
+<property name="fieldClass" value="char"/>
+</field>
+<field position="2" name="App_baseInterestRate" type="InputTextInteger" id="453522431">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;baseInterestRate (App)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="App/baseInterestRate"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="3" name="App_contractTypeMFI" type="InputTextPrimitiveCharacter" id="2136044555">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;contractTypeMFI (App)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="App/contractTypeMFI"/>
+<property name="fieldClass" value="char"/>
+</field>
+<field position="4" name="App_insuranceAmount" type="InputTextInteger" id="72628566">
+<property name="fieldRequired" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;&#1057;&#1091;&#1084;&#1084;&#1072; &#1089;&#1090;&#1088;&#1072;&#1093;&#1086;&#1074;&#1082;&#1080;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="App/insuranceAmount"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="5" name="App_insuranceCompanyId" type="InputTextPrimitiveCharacter" id="1015600606">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;insuranceCompanyId (App)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="App/insuranceCompanyId"/>
+<property name="fieldClass" value="char"/>
+</field>
+<field position="6" name="App_insuranceProgramCode" type="InputTextPrimitiveCharacter" id="2023268925">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;insuranceProgramCode (App)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="App/insuranceProgramCode"/>
+<property name="fieldClass" value="char"/>
+</field>
+<field position="7" name="App_maxProductTerm" type="InputTextInteger" id="1596079941">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;maxProductTerm (App)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="App/maxProductTerm"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="8" name="App_minProductTerm" type="InputTextInteger" id="1571237837">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;minProductTerm (App)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="App/minProductTerm"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="9" name="App_pOSIdMFI" type="InputTextInteger" id="8657089">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;pOSIdMFI (App)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="App/pOSIdMFI"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="10" name="App_requestedAmount" type="InputTextInteger" id="1743687876">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;requestedAmount (App)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="App/requestedAmount"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="11" name="App_requestedCurrencyId" type="Subform" id="1755867521">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;requestedCurrencyId (App)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="App/requestedCurrencyId"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="12" name="App_requestedMaturity" type="InputTextInteger" id="1433278800">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;requestedMaturity (App)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="App/requestedMaturity"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="13" name="App_requestedProductId" type="InputTextPrimitiveCharacter" id="494881317">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;requestedProductId (App)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="App/requestedProductId"/>
+<property name="fieldClass" value="char"/>
+</field>
+<field position="14" name="App_requestedRate" type="InputTextInteger" id="1464938871">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;requestedRate (App)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="App/requestedRate"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="15" name="Descision_applicationCreateDate" type="InputDate" id="729972702">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;applicationCreateDate (Descision)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="Descision/applicationCreateDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="16" name="Descision_applicationId" type="InputTextPrimitiveCharacter" id="1974823659">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;applicationId (Descision)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="Descision/applicationId"/>
+<property name="fieldClass" value="char"/>
+</field>
+<field position="17" name="Descision_approvedAmount" type="InputTextInteger" id="1796216490">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;approvedAmount (Descision)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="Descision/approvedAmount"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="18" name="Descision_approvedCurrency" type="Subform" id="78693042">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;approvedCurrency (Descision)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="Descision/approvedCurrency"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="19" name="Descision_approvedMaturity" type="InputTextInteger" id="1539721123">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;approvedMaturity (Descision)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="Descision/approvedMaturity"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="22" name="Descision_approvedRate" type="InputTextInteger" id="1747354098">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;approvedRate (Descision)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="Descision/approvedRate"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="23" name="Descision_baseInterestRate" type="InputTextInteger" id="601429396">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;baseInterestRate (Descision)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="Descision/baseInterestRate"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="24" name="Descision_contractTypeMFI" type="InputTextPrimitiveCharacter" id="2097580813">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;contractTypeMFI (Descision)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="Descision/contractTypeMFI"/>
+<property name="fieldClass" value="char"/>
+</field>
+<field position="25" name="Descision_decisionDate" type="InputDate" id="535205191">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;decisionDate (Descision)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="Descision/decisionDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="26" name="Descision_insuranceAmount" type="InputTextInteger" id="1149513356">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;insuranceAmount (Descision)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="Descision/insuranceAmount"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="27" name="Descision_insuranceCompanyId" type="InputTextPrimitiveCharacter" id="1075996962">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;insuranceCompanyId (Descision)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="Descision/insuranceCompanyId"/>
+<property name="fieldClass" value="char"/>
+</field>
+<field position="28" name="Descision_insuranceProgramCode" type="InputTextPrimitiveCharacter" id="870958783">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;insuranceProgramCode (Descision)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="Descision/insuranceProgramCode"/>
+<property name="fieldClass" value="char"/>
+</field>
+<field position="29" name="Descision_maxProductTerm" type="InputTextInteger" id="509015209">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;maxProductTerm (Descision)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="Descision/maxProductTerm"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="21" name="Descision_minProductTerm" type="InputTextInteger" id="637626841">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;minProductTerm (Descision)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="Descision/minProductTerm"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="20" name="Descision_pOSIdMFI" type="InputTextInteger" id="96643312">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;pOSIdMFI (Descision)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="Descision/pOSIdMFI"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="30" name="Descision_requestedAmount" type="InputTextInteger" id="187766521">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;requestedAmount (Descision)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="Descision/requestedAmount"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="31" name="Descision_requestedCurrencyId" type="Subform" id="133674273">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;requestedCurrencyId (Descision)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="Descision/requestedCurrencyId"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="32" name="Descision_requestedMaturity" type="InputTextInteger" id="678209105">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;requestedMaturity (Descision)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="Descision/requestedMaturity"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="33" name="Descision_requestedProductId" type="InputTextPrimitiveCharacter" id="1081832971">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;requestedProductId (Descision)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="Descision/requestedProductId"/>
+<property name="fieldClass" value="char"/>
+</field>
+<field position="34" name="Descision_requestedRate" type="InputTextInteger" id="862129388">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;requestedRate (Descision)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="Descision/requestedRate"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<dataHolder inputId="" name="#E9E371" type="dataModelerEntry" outId="App" value="application.ApplicationProduct" id="App"/>
+<dataHolder inputId="" name="#FF54A7" type="dataModelerEntry" outId="Descision" value="application.ScoringDecision" id="Descision"/>
+</form>

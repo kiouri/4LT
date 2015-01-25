@@ -1,0 +1,188 @@
+
+<form id="1248030183">
+<property name="subject" value=""/>
+<property name="name" value="InputAplication-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="5" name="person_id_lastName" type="InputText" id="465754214">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;lastName (person_id)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="personOutput/lastName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="person_id_middleName" type="InputText" id="2024598825">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;middleName (person_id)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="personOutput/middleName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="person_id_birthDate" type="InputDate" id="681669676">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;birthDate (person_id)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="personOutput/birthDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="8" name="person_id_cityBirthCode" type="InputTextInteger" id="557920782">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;cityBirthCode (person_id)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="personOutput/cityBirthCode"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="9" name="person_id_inn" type="InputTextInteger" id="206500079">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;inn (person_id)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="personOutput/inn"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="0" name="app_id_applicationCreateDate" type="InputDate" id="898523077">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;applicationCreateDate (app_id)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="appOutput/applicationCreateDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="1" name="app_id_applicationId" type="InputTextPrimitiveCharacter" id="173973343">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;applicationId (app_id)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="appOutput/applicationId"/>
+<property name="fieldClass" value="char"/>
+</field>
+<field position="17" name="app_id_insuranceAmount" type="InputTextInteger" id="1228707776">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;insuranceAmount (app_id)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="appOutput/insuranceAmount"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="19" name="app_id_insuranceCompanyId" type="InputTextPrimitiveCharacter" id="1208236757">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;insuranceCompanyId (app_id)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="appOutput/insuranceCompanyId"/>
+<property name="fieldClass" value="char"/>
+</field>
+<field position="18" name="app_id_insuranceProgramCode" type="InputTextPrimitiveCharacter" id="1914519200">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;insuranceProgramCode (app_id)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="appOutput/insuranceProgramCode"/>
+<property name="fieldClass" value="char"/>
+</field>
+<field position="2" name="app_id_pOSIdMFI" type="InputTextInteger" id="1340427946">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;pOSIdMFI (app_id)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="appOutput/pOSIdMFI"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="11" name="app_id_requestedAmount" type="InputTextInteger" id="1824790165">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;requestedAmount (app_id)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="appOutput/requestedAmount"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="12" name="app_id_requestedCurrencyId" type="Subform" id="21395063">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;requestedCurrencyId (app_id)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="appOutput/requestedCurrencyId"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="13" name="app_id_requestedMaturity" type="InputTextInteger" id="439684438">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;requestedMaturity (app_id)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="appOutput/requestedMaturity"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="15" name="app_id_requestedProductId" type="InputTextPrimitiveCharacter" id="100180366">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;requestedProductId (app_id)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="appOutput/requestedProductId"/>
+<property name="fieldClass" value="char"/>
+</field>
+<field position="14" name="app_id_requestedRate" type="InputTextInteger" id="1704270577">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;requestedRate (app_id)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="appOutput/requestedRate"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="4" name="person_id_fistName" type="InputText" id="600979720">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;fistName (person_id)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="personOutput/fistName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="10" name=":decorator_0" type="Separator" id="1605697988">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value=""/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="Separator"/>
+</field>
+<field position="3" name=":decorator_1" type="Separator" id="98452418">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value=""/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="Separator"/>
+</field>
+<field position="16" name=":decorator_2" type="Separator" id="513352964">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value=""/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="Separator"/>
+</field>
+<dataHolder inputId="" name="#E9E371" type="dataModelerEntry" outId="appOutput" value="application.ApplicationProduct" id="app_id"/>
+<dataHolder inputId="" name="#9BCAFA" type="dataModelerEntry" outId="partyOutput" value="com.fourlt.party.Party" id="party_id"/>
+<dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="personOutput" value="com.fourlt.party.Person" id="person_id"/>
+</form>

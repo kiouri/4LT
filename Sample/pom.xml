@@ -3,7 +3,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.fourlt</groupId>
+<<<<<<< HEAD
   <artifactId>MFI</artifactId>
+=======
+  <artifactId>sample</artifactId>
+>>>>>>> remotes/4LTGithub/master
   <version>1.0</version>
   <packaging>kjar</packaging>
   <name>MFI-sample</name>
