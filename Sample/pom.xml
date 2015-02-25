@@ -6,7 +6,7 @@
 <<<<<<< HEAD
   <artifactId>Sample</artifactId>
 =======
-  <artifactId>sample</artifactId>
+  <artifactId>Sample</artifactId>
 >>>>>>> remotes/4LTGithub/master
   <version>1.0</version>
   <packaging>kjar</packaging>
