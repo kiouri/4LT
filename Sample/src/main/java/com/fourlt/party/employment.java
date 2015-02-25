@@ -41,6 +41,14 @@ public class employment extends Person implements java.io.Serializable {
 	@org.kie.api.definition.type.Position(6)
 	private char spouseWages;
 
+	@org.kie.api.definition.type.Label(value = "\u0438\u0434 \u043A\u043E\u043D\u0442\u0440\u0430\u0433\u0435\u043D\u0442\u0430")
+	@org.kie.api.definition.type.Position(value = 7)
+	private java.lang.Integer partyId;
+
+	@org.kie.api.definition.type.Label(value = "\u0438\u0434 \u0441\u0442\u0430\u0436\u0430")
+	@org.kie.api.definition.type.Position(value = 8)
+	private java.lang.Integer experienceID;
+
 	public char getPositionType() {
         return this.positionType;
     }
@@ -97,13 +105,30 @@ public class employment extends Person implements java.io.Serializable {
 		this.wagesCurrency = wagesCurrency;
 	}
 
+	public java.lang.Integer getPartyId() {
+		return this.partyId;
+	}
+
+	public void setPartyId(java.lang.Integer partyId) {
+		this.partyId = partyId;
+	}
+
+	public java.lang.Integer getExperienceID() {
+		return this.experienceID;
+	}
+
+	public void setExperienceID(java.lang.Integer experienceID) {
+		this.experienceID = experienceID;
+	}
+
 	public employment() {
 	}
 
 	public employment(java.lang.Integer wagesDeclared,
 			java.lang.Integer wagesVerifed,
 			com.fourlt.reference.currencyCode wagesCurrency, char positionType,
-			char referenceFrame, char wagesType, char spouseWages) {
+			char referenceFrame, char wagesType, char spouseWages,
+			java.lang.Integer partyId, java.lang.Integer experienceID) {
 		this.wagesDeclared = wagesDeclared;
 		this.wagesVerifed = wagesVerifed;
 		this.wagesCurrency = wagesCurrency;
@@ -111,6 +136,8 @@ public class employment extends Person implements java.io.Serializable {
 		this.referenceFrame = referenceFrame;
 		this.wagesType = wagesType;
 		this.spouseWages = spouseWages;
+		this.partyId = partyId;
+		this.experienceID = experienceID;
 	}
 
 }

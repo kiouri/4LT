@@ -56,6 +56,10 @@ public class documentParty extends Party implements java.io.Serializable {
 	@org.kie.api.definition.type.Position(10)
 	private java.util.Date documentExpirationDate;
 
+	@org.kie.api.definition.type.Label(value = "\u0438\u0434 \u043A\u043E\u043D\u0442\u0440\u0430\u0433\u0435\u043D\u0442\u0430")
+	@org.kie.api.definition.type.Position(value = 11)
+	private java.lang.Integer partyId;
+
 	public java.lang.Integer getDocumentId() {
         return this.documentId;
     }
@@ -145,6 +149,14 @@ public class documentParty extends Party implements java.io.Serializable {
 		this.documentIssueCountry = documentIssueCountry;
 	}
 
+	public java.lang.Integer getPartyId() {
+		return this.partyId;
+	}
+
+	public void setPartyId(java.lang.Integer partyId) {
+		this.partyId = partyId;
+	}
+
 	public documentParty() {
 	}
 
@@ -155,7 +167,8 @@ public class documentParty extends Party implements java.io.Serializable {
 			java.lang.Integer documentIssueDepartmentCode,
 			char documentIssueCityId,
 			com.fourlt.reference.Country documentIssueCountry,
-			char documentIssueRegion, java.util.Date documentExpirationDate) {
+			char documentIssueRegion, java.util.Date documentExpirationDate,
+			java.lang.Integer partyId) {
 		this.documentId = documentId;
 		this.documentType = documentType;
 		this.documentSeria = documentSeria;
@@ -167,6 +180,7 @@ public class documentParty extends Party implements java.io.Serializable {
 		this.documentIssueCountry = documentIssueCountry;
 		this.documentIssueRegion = documentIssueRegion;
 		this.documentExpirationDate = documentExpirationDate;
+		this.partyId = partyId;
 	}
 
 }

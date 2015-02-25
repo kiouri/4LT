@@ -37,7 +37,11 @@ public class Party implements java.io.Serializable {
 	@org.kie.api.definition.type.Position(3)
 	private SubjectType subjectTypeCode;
 
-    public java.lang.Integer getLanguage() {
+    @org.kie.api.definition.type.Label(value = "\u0438\u0434 \u043A\u043E\u043D\u0442\u0440\u0430\u0433\u0435\u043D\u0442\u0430")
+	@org.kie.api.definition.type.Position(value = 5)
+	private java.lang.Integer partyId;
+
+	public java.lang.Integer getLanguage() {
         return this.language;
     }
     
@@ -78,18 +82,27 @@ public class Party implements java.io.Serializable {
 		this.subjectTypeCode = subjectTypeCode;
 	}
 
+	public java.lang.Integer getPartyId() {
+		return this.partyId;
+	}
+
+	public void setPartyId(java.lang.Integer partyId) {
+		this.partyId = partyId;
+	}
+
 	public Party() {
 	}
 
 	public Party(java.lang.Integer subjectId, java.lang.Integer inn,
 			java.lang.Integer language,
 			com.fourlt.reference.SubjectType subjectTypeCode,
-			java.lang.Integer parentId) {
+			java.lang.Integer parentId, java.lang.Integer partyId) {
 		this.subjectId = subjectId;
 		this.inn = inn;
 		this.language = language;
 		this.subjectTypeCode = subjectTypeCode;
 		this.parentId = parentId;
+		this.partyId = partyId;
 	}
 
 }

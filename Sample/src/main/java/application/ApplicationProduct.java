@@ -72,6 +72,10 @@ public class ApplicationProduct implements java.io.Serializable {
 	@org.kie.api.definition.type.Position(14)
 	private java.lang.Integer POSIdMFI;
 
+	@org.kie.api.definition.type.Label(value = "\u0438\u0434 \u043A\u043E\u043D\u0442\u0440\u0430\u0433\u0435\u043D\u0442\u0430")
+	@org.kie.api.definition.type.Position(value = 15)
+	private java.lang.Integer partyId;
+
 	public java.util.Date getApplicationCreateDate() {
         return this.applicationCreateDate;
     }
@@ -193,6 +197,14 @@ public class ApplicationProduct implements java.io.Serializable {
 		this.contractTypeMFI = contractTypeMFI;
 	}
 
+	public java.lang.Integer getPartyId() {
+		return this.partyId;
+	}
+
+	public void setPartyId(java.lang.Integer partyId) {
+		this.partyId = partyId;
+	}
+
 	public ApplicationProduct() {
 	}
 
@@ -205,7 +217,8 @@ public class ApplicationProduct implements java.io.Serializable {
 			java.lang.Integer baseInterestRate, char contractTypeMFI,
 			java.lang.Integer insuranceAmount, char insuranceCompanyId,
 			char insuranceProgramCode, java.lang.Integer minProductTerm,
-			java.lang.Integer maxProductTerm, java.lang.Integer POSIdMFI) {
+			java.lang.Integer maxProductTerm, java.lang.Integer POSIdMFI,
+			java.lang.Integer partyId) {
 		this.applicationId = applicationId;
 		this.applicationCreateDate = applicationCreateDate;
 		this.requestedProductId = requestedProductId;
@@ -221,6 +234,7 @@ public class ApplicationProduct implements java.io.Serializable {
 		this.minProductTerm = minProductTerm;
 		this.maxProductTerm = maxProductTerm;
 		this.POSIdMFI = POSIdMFI;
+		this.partyId = partyId;
 	}
 
 }
